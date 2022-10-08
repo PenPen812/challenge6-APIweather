@@ -64,6 +64,7 @@ input {
   border: 2px solid #aeafae;
   margin-bottom: 15px;
   text-align: center;
+
 }
 
 button {
@@ -140,14 +141,15 @@ button:hover {
 
 }
 
+
 .day {
-  font-size: 15px;
+ font-size: 20px;
   border: 2px solid black;
   padding-left: 2px;
   margin:5px;
   padding: 25px;
   text-align: left;
-  padding-right:90px ;
+  padding-right:75px ;
   padding-left: 12px;
   line-height: 1cm;
   background-color: #2E3E4F;
