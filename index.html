@@ -13,22 +13,60 @@
 <body>
     <header><h1>Weather Dashboard</h1></header>
         <main>
-            <div class="card">
-                <h3 class=""card-header text-uppercase">Search for a City:</h3>
+            <div class="search-card">
+                <p class=""card-header text-uppercase">Search for a City:</p>
                 <form id="weatherCard" class="card-body">
                     <label class="form-label" for="cityName"></label>
                     <input name="cityName" placeholder="The Name of City..."id="cityName" type="text" autofocus="true" class="form-input" />
                     <div><button type="submit" class="btn">Search</button>
                   </form>
+                
                   </div>
             </div>
-            <div class="container">
+            <div class="currentWeather">
             <div class="col-12 col-md-8">
-                <h2 class="subtitle"><span id="Search-result"></span></h2>
+                <h2 class="subtitle"><span>Austin (10/6/2022)"<"ICON">"</span></h2>
+                <div class="weather">
+                <div class="temp">Temp: 76.62F</div>
+                <div class="wind">Wind: 8.43MPH</div>
+                <div class="humiduty">Humidity: 44%</div>
                 <div id="wether-container" class="list-group"></div>
-              </div>
             </div>
+        </div>
+      
+    </main>
+    <main>
+    <div>
+          <div class="history-card">
+            <div><button class="history">city-1</button></div>
+            <div><button class="history">city-2</button></div>
+            <div><button class="history">city-3</button></div>
+            <div><button class="history">city-4</button></div>
+            <div><button class="history">city-5</button></div>
+        </div>
+        </div>
+   
+    <section class="forecast">
+            <div class="col-12 col-md-8">
+            <h2 class="subtitleForecast"><span>5-Day Forecast:</span></h2>
+       <section class="fiveDay"> 
+      
+        <div class="day">10/08/2022<br>"<"ICON">"<br>Temp:<br>Wind:<br>Humidity:</div>
+     
+        <div class="day">10/09/2022<br>"<"ICON">"<br>Temp:<br>Wind:<br>Humidity:</div>
+
+        <div class="day">10/10/2022<br>"<"ICON">"<br>Temp:<br>Wind:<br>Humidity:</div>
+  
+        <div class="day">10/11/2022<br>"<"ICON">"<br>Temp:<br>Wind:<br>Humidity:</div>
+
+        <div class="day">10/12/2022<br>"<"ICON">"<br>Temp:<br>Wind:<br>Humidity:</div>
+        
+
+    </section>   
+    </section>
+    
         </main>
     <script src="./assets/JS/script.js"></script>
 </body>
 </html>
+
