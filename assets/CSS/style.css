@@ -83,12 +83,12 @@ button:hover {
   color: lightskyblue;}
   
 
-.history-card {
+#historyCard {
   margin: 10px;
   margin-left: 20px;
 
 }
-.history {
+.historyRec {
   width:350px;
   background-color: #AEAEAE;
   color:black;
@@ -107,7 +107,7 @@ button:hover {
   padding-bottom: 15px;
   margin-left: 10px;
 }
-.subtitle {
+.cityName {
   width: 100%;
   font-size: 40px;
 }

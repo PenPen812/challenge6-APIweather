@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/CSS/style.css">
-    <title>API Weather</title>
+    <title>5-Days Weather Tracker</title>
 </head>
 <body>
     <header><h1>Weather Dashboard</h1></header>
@@ -25,11 +25,11 @@
             </div>
             <div class="currentWeather">
             <div class="col-12 col-md-8">
-                <h2 class="subtitle"><span>Austin (10/6/2022)< ICON></span></h2>
-                <div class="weather">
-                <div class="temp">Temp: 76.62F</div>
-                <div class="wind">Wind: 8.43MPH</div>
-                <div class="humiduty">Humidity: 44%</div>
+                <h2  class="cityName"><span></span></h2>
+                <div class="weather"><p></p></div>
+                <div class="temp"><p></p></div>
+                <div class="wind"><p></p></div>
+                <div class="humiduty"><p></p></div>
                 <div id="wether-container" class="list-group"></div>
             </div>
         </div>
@@ -37,12 +37,12 @@
     </main>
     <main>
     <div>
-          <div class="history-card">
-            <div><button class="history">city-1</button></div>
-            <div><button class="history">city-2</button></div>
-            <div><button class="history">city-3</button></div>
-            <div><button class="history">city-4</button></div>
-            <div><button class="history">city-5</button></div>
+          <div id="historyCard">
+            <div><button class="historyRec"></button></div>
+            <div><button class="historyRec"></button></div>
+            <div><button class="historyRec"></button></div>
+            <div><button class="historyRec"></button></div>
+            <div><button class="historyRec"></button></div>
         </div>
         </div>
    
@@ -51,15 +51,15 @@
             <h2 class="subtitleForecast"><span>5-Day Forecast:</span></h2>
        <section class="fiveDay" id="date"> 
       
-        <div class="day">10/08/2022<br>< ICON><br>Temp:<br>Wind:<br>Humidity:</div>
+        <div class="day">Date<br>< ICON><br>Temp:<br>Wind:<br>Humidity:</div>
      
-        <div class="day">10/09/2022<br>< ICON><br>Temp:<br>Wind:<br>Humidity:</div>
+        <div class="day">Date<br>< ICON><br>Temp:<br>Wind:<br>Humidity:</div>
 
-        <div class="day">10/10/2022<br>< ICON><br>Temp:<br>Wind:<br>Humidity:</div>
+        <div class="day">Date<br>< ICON><br>Temp:<br>Wind:<br>Humidity:</div>
   
-        <div class="day">10/11/2022<br>< ICON><br>Temp:<br>Wind:<br>Humidity:</div>
+        <div class="day">Date<br>< ICON><br>Temp:<br>Wind:<br>Humidity:</div>
 
-        <div class="day">10/12/2022<br>< ICON><br>Temp:<br>Wind:<br>Humidity:</div>
+        <div class="day">Date<br>< ICON><br>Temp:<br>Wind:<br>Humidity:</div>
         
 
     </section>   
