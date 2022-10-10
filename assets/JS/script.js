@@ -4,11 +4,10 @@ var forecastEl = document.querySelector('#forecast')
 var weatherCardEl = document.querySelector('#weatherCard')
 var cityNameEl = document.querySelector('#cityName')
 
-var APIKey = '50fab96ea22aedb450aa902a45727be1'
 var city;
-
 var currentWeatherEl = $('#currentWeather');
-    function currentResult(){
+    
+function currentResult(){
         currentResult.text(queryURL);
         var currentWeather=document.createElement('div');
         var temp=document.createElement('p');
@@ -25,8 +24,6 @@ var currentWeatherEl = $('#currentWeather');
     }
 
 currentResult();
-
-
 
 //Search history
 var historyCard=document.createElement('div');
