@@ -1,6 +1,6 @@
 Title: Weather Tracker
 
-URL https://penpen812.github.io/challenge6-APIweather/
+URL https://penelope-leung.github.io/challenge6-APIweather/
 
 This application is for travelers who are traveling in different counties that easy to check the current city's weather.
 
